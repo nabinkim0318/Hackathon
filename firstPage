@@ -1,4 +1,13 @@
 
+
+//Drop-down list
+<Spinner
+    android:id="@+id/spinner1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/btn_dropdown"
+    android:spinnerMode="dropdown"/>
+
 //Java
 //get the spinner from the xml.
 Spinner dropdown = findViewById(R.id.spinner1);
